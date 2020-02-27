@@ -92,7 +92,7 @@ public class PlayerJoin : MonoBehaviour
             }
         }
         
-        _alreadyJoinedGamepads.Add((Gamepad) ctx.control.device);
+        _alreadyJoinedGamepads.Add(ctx.control.device);
 
         Debug.Log($"Connecting: {ctx.ToString()}");
         
